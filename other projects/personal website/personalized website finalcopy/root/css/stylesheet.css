@@ -1,0 +1,621 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Dosis:400,200,300,500,600|Raleway:400,100,200,300,500,600,700);
+
+
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Page 1 */
+
+html{
+display: block;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;  
+}
+
+
+/*header and nav bar styling*/
+
+
+#nav-bar ul li{
+    display: inline-block;
+}
+
+#nav-bar ul li a{
+    display: inline-block;
+    color: white;
+    font-family: 'cinzel';
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    height: 43px;
+        
+    padding-top: 27px;
+    width: 284px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+/*
+#nav-bar ul a{
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 2px grey;
+    display: block;
+    background-size: auto 128px;
+    height: 50px;
+    position: relative;
+    align-content: center;
+}
+
+#nav-bar ul a:after{
+    font-family: 'cinzel';
+    font-size: 17px;
+    line-height: 1px;
+    font-weight: 100;
+    position: absolute;
+    right: 120px;
+    top: -20px;
+    letter-spacing: 50px;
+}
+*/
+
+
+
+span{
+    display: none;
+}
+
+
+
+.RM{
+    float: left;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+nav{
+    background: #808080;
+    height: 70px;
+    margin-bottom: 30px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: -3px -3px 3px 0 rgba(0,0,0,0.19) , 3px 0 3px 0 rgba(0,0,0,0.19) , 0 3px 3px 0 rgba(0,0,0,0.23);
+
+    /*word-spacing: 149.6px;*/  
+}
+
+nav ul a:hover { 
+    background: #A5A5A5;
+    transition: .8s all;
+    border: white;
+    
+}
+
+
+.home-pic{
+    background-image: url(../images/home_pic.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 800px;
+    width: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* text styling */
+
+header{
+    display: block;
+    text-align: center;
+    width: auto;
+    font-family: 'raleway';
+    font-weight: lighter; 
+}
+
+h1{
+    font-size: 30px;
+    color: #666666;
+    margin-top: 42px;
+    margin-bottom: 10px;
+}
+
+.sub-header{
+    font-size: 21px;
+    color: #999999;
+    margin-bottom: 40px;
+}
+
+article{
+    font-family: 'athelas';
+    font-style: italic;  
+    font-size: 17px;
+    color: #A5A5A5;
+    line-height: 1.8888;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+
+.hello{
+    text-align: center;
+    margin-bottom: 15px;
+    
+    
+}
+
+article p{
+    margin-bottom: 30px;
+}
+
+article p:last-child{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.email {
+	font-family: 'dosis';
+    font-style: normal;
+    color: #808080;
+}
+
+
+
+/*
+.email a: hover {
+    text-decoration: underline;
+}
+*/
+
+/*
+footer{
+    
+    background-image: 
+        url(../images/facebook-grey.png),
+        url(../images/insta-grey.png),
+        url(../images/twitter-grey.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: auto, auto, auto;
+    background-position: bottom left, bottom left 70px, bottom left 140px;
+    
+    height: 60px;
+    margin-bottom: 10px;
+    line-height: 3.8888px;
+
+}*/
+
+
+
+
+footer{
+    font-family: 'raleway';
+    color: #A5A5A5;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+footer p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+footer ul li{
+    display: inline-block;
+    height: 35px;
+    
+}
+
+footer ul li:last-child{
+    height: 29px;
+    width: 35px;
+}
+
+/*
+footer ul li:hover{
+    background: #A5A5A5;
+}
+*/
+
+
+/*page-2*/
+
+.photography-header {
+	margin: auto;
+    margin-top: 100px;
+    
+    text-align: center;
+    font-family: 'raleway';
+    text-decoration: none;
+    font-style: normal;
+    
+}
+
+.photography-images {
+	display: block;
+    width: auto;
+    height: 100%;
+    width: 100%;
+
+}
+
+.photo1 {
+    max-height: 400px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.photo2 {
+    max-height: 500px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.photo3{
+    max-height: 500px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.photo4 {
+	max-height: 500px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+
+
+
+/* page-3*/
+
+.website-images{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* page-4*/
+
+.image-creation-images {
+	margin:auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+
+
+@media screen and (max-width: 960px){
+    
+   
+    
+    #nav-bar{
+        position: fixed;
+        background: rgba(255,255,255,1);
+
+
+        width: 100%;
+        margin: 0 !important;
+    }
+    
+    .icon-hamburger{
+        background-image: url(../images/hamburger-menu-open.png);
+        background-repeat: no-repeat;
+
+    }
+    
+    .icon-close{
+        background-image: url(../images/hamburger-menu-close.png);
+        background-repeat: no-repeat;
+
+    }
+    
+    #nav-bar ul a{
+    display: block;
+    
+    font-family: 'raleway';
+
+    font-weight: none;
+    text-decoration: none;
+    height: 43px;
+        
+    padding-top: 27px;
+    margin: auto;
+    text-align: left;
+
+}
+    
+    #nav-bar:target{
+        left: 0;
+        bottom: 0;
+    }
+    
+    #nav-bar > a{
+    display: block;
+    float: right;
+    clear: both;
+        
+    width: 40px;
+    height: 40px;
+        
+    font-size: 40px;
+    line-height: 40px;
+        
+    text-decoration: none;
+    text-align: center;
+        
+    margin-top: -51px;
+    margin-right: 10px;
+        
+    overflow: hidden;
+        
+    color: black;
+    }
+    
+    #nav-bar > a:first-child{
+        float: none;
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        width: 108px;
+    }
+    
+    #nav-bar > a:first-child img{
+        margin: 0;
+    }
+    
+    #nav-bar > a span{
+        display: none;
+    }
+    
+    /* hide the menu links by default */
+    #nav-bar ul{
+        text-align: center;
+        background: grey;
+        border: solid;
+    }
+    
+    #nav-bar ul li:last-child a{
+        border: none;
+    }
+    
+    #nav-bar ul li{
+        display: block;   
+    }
+    
+    /* hide the "hide menu" link by default,
+       since the menu is invisible at this point */
+    #nav-bar > #hide{
+        display: none;
+    }
+    
+    #nav-bar ul{
+        display: none;
+    }
+    /* reveal the menu links when #site-nav
+       is in the address bar */
+    #nav-bar:target ul{
+        display: block;
+        -webkit-animation: show-menu 0.75s;
+        animation: show-menu 0.75s;
+    }
+    
+    #nav-bar:target ul li:nth-child(1){
+        -webkit-animation: slide-in 1s 0.5s both;
+        animation: slide-in 1s 0.5s both;
+    }
+    
+    #nav-bar:target ul li:nth-child(2){
+        -webkit-animation: slide-in 1s 0.75s both;
+        animation: slide-in 1s 0.75s both;
+    }
+    
+
+    
+    /* menu is visible, so remove 
+       the "show menu" link */
+    #nav-bar:target > #show{
+        display: none;
+    }
+    /* menu is visible, so reveal 
+       the "hide menu" link */
+    #nav-bar:target > #hide{
+        display: block;
+        margin-bottom: auto;
+    }
+    
+    #wrapper{
+        max-width: 400px;
+        
+    }
+    
+    /*home picture styling*/
+    
+    .home-pic{
+        display: block;
+        background-attachment: fixed;
+        background-size:contain;
+    }
+    
+    
+    /*mobile text styling*/
+    .article{
+
+    }
+    
+   header{
+    display: block;
+    text-align: center;
+    width: auto;
+    margin-top: 30px;
+}
+
+h1{
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.sub-header{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+article{
+    width: 370px;
+    margin: auto;
+}
+    
+    footer p{
+        text-align: center;
+}
+
+    /*photography mobile styling*/
+    
+    .photography-images {
+	margin-bottom: 100px;
+}
+
+    .photo1 {
+        display: block;
+        width: 360px;
+        margin: auto;
+    margin-bottom: 50px;
+}
+    
+    .photo2 {
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 50px;
+
+}
+    .photo3 {
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 50px;
+
+}
+    .photo4 {
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 50px;
+
+}
+    
+    /*web design mobile styling*/
+    
+    .web1{
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .web2{
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .web3{
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .web4{
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .web5{
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .web6{
+        display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    
+    /* image creation mobile styling */
+    
+.creation1 {
+	 display: block;
+        width: 360px;
+        margin: auto;
+    margin-bottom: 100px;
+}
+ 
+    .creation2 {
+	 display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+}
+    .creation3 {
+	 display: block;
+        width: 360px;
+        margin: auto;
+        margin-bottom: 100px;
+        
+}
+    
+    
+    }
+
+
+
+
+/* $(document).ready(function(){
+    //STICKY NAV
+  var top = $('#nav-bar').offset().top - parseFloat($('#nav-bar').css('marginTop').replace(//, 100));
+  $(window).scroll(function (event) {
+    // what the y position of the scroll is
+    var y = $(this).scrollTop();
+
+    // whether that's below the form
+    if (y >= top) {
+      // if so, ad the fixed class
+      $('#nav-bar').addClass('fixed');
+    } else {
+      // otherwise remove it
+      $('#nav-bar').removeClass('fixed');
+    }
+      
+     //photography-plugin styling
+      $(".thumb-item").brazzersCarousel();
+      
+    
+}); */
+
+    

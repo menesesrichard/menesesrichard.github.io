@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,600italic,200);
+
+html{
+    display: block;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: 'Raleway';
+
+}
+
+h2{
+text-align: center;
+}
+
+.badge {
+margin: auto;
+}
+
+img{
+    width:100%;
+    height:auto;
+}

@@ -12,7 +12,7 @@ display: block;
 
 #wrapper{
     width: 960px;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
 
 
@@ -31,7 +31,7 @@ display: block;
     font-weight: bold;
     text-decoration: none;
     height: 43px;
-        
+
     padding-top: 27px;
     width: 284px;
     margin: auto;
@@ -95,11 +95,11 @@ nav{
     /*word-spacing: 149.6px;*/  
 }
 
-nav ul a:hover { 
+nav ul a:hover {
     background: #A5A5A5;
     transition: .8s all;
     border: white;
-    
+
 }
 
 
@@ -122,7 +122,7 @@ header{
     text-align: center;
     width: auto;
     font-family: 'raleway';
-    font-weight: lighter; 
+    font-weight: lighter;
 }
 
 h1{
@@ -140,7 +140,7 @@ h1{
 
 article{
     font-family: 'athelas';
-    font-style: italic;  
+    font-style: italic;
     font-size: 17px;
     color: #A5A5A5;
     line-height: 1.8888;
@@ -153,8 +153,8 @@ article{
 .hello{
     text-align: center;
     margin-bottom: 15px;
-    
-    
+
+
 }
 
 article p{
@@ -182,15 +182,15 @@ article p:last-child{
 
 /*
 footer{
-    
-    background-image: 
+
+    background-image:
         url(../images/facebook-grey.png),
         url(../images/insta-grey.png),
         url(../images/twitter-grey.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: auto, auto, auto;
     background-position: bottom left, bottom left 70px, bottom left 140px;
-    
+
     height: 60px;
     margin-bottom: 10px;
     line-height: 3.8888px;
@@ -216,7 +216,7 @@ footer p{
 footer ul li{
     display: inline-block;
     height: 35px;
-    
+
 }
 
 footer ul li:last-child{
@@ -236,12 +236,12 @@ footer ul li:hover{
 .photography-header {
 	margin: auto;
     margin-top: 100px;
-    
+
     text-align: center;
     font-family: 'raleway';
     text-decoration: none;
     font-style: normal;
-    
+
 }
 
 .photography-images {
@@ -302,9 +302,9 @@ footer ul li:hover{
 
 
 @media screen and (max-width: 960px){
-    
-   
-    
+
+
+
     #nav-bar{
         position: fixed;
         background: rgba(255,255,255,1);
@@ -313,61 +313,61 @@ footer ul li:hover{
         width: 100%;
         margin: 0 !important;
     }
-    
+
     .icon-hamburger{
         background-image: url(../images/hamburger-menu-open.png);
         background-repeat: no-repeat;
 
     }
-    
+
     .icon-close{
         background-image: url(../images/hamburger-menu-close.png);
         background-repeat: no-repeat;
 
     }
-    
+
     #nav-bar ul a{
     display: block;
-    
+
     font-family: 'raleway';
 
     font-weight: none;
     text-decoration: none;
     height: 43px;
-        
+
     padding-top: 27px;
     margin: auto;
     text-align: left;
 
 }
-    
+
     #nav-bar:target{
         left: 0;
         bottom: 0;
     }
-    
+
     #nav-bar > a{
     display: block;
     float: right;
     clear: both;
-        
+
     width: 40px;
     height: 40px;
-        
+
     font-size: 40px;
     line-height: 40px;
-        
+
     text-decoration: none;
     text-align: center;
-        
+
     margin-top: -51px;
     margin-right: 10px;
-        
+
     overflow: hidden;
-        
+
     color: black;
     }
-    
+
     #nav-bar > a:first-child{
         float: none;
         display: block;
@@ -377,36 +377,36 @@ footer ul li:hover{
         padding: 0;
         width: 108px;
     }
-    
+
     #nav-bar > a:first-child img{
         margin: 0;
     }
-    
+
     #nav-bar > a span{
         display: none;
     }
-    
+
     /* hide the menu links by default */
     #nav-bar ul{
         text-align: center;
         background: grey;
         border: solid;
     }
-    
+
     #nav-bar ul li:last-child a{
         border: none;
     }
-    
+
     #nav-bar ul li{
-        display: block;   
+        display: block;
     }
-    
+
     /* hide the "hide menu" link by default,
        since the menu is invisible at this point */
     #nav-bar > #hide{
         display: none;
     }
-    
+
     #nav-bar ul{
         display: none;
     }
@@ -417,50 +417,50 @@ footer ul li:hover{
         -webkit-animation: show-menu 0.75s;
         animation: show-menu 0.75s;
     }
-    
+
     #nav-bar:target ul li:nth-child(1){
         -webkit-animation: slide-in 1s 0.5s both;
         animation: slide-in 1s 0.5s both;
     }
-    
+
     #nav-bar:target ul li:nth-child(2){
         -webkit-animation: slide-in 1s 0.75s both;
         animation: slide-in 1s 0.75s both;
     }
-    
 
-    
-    /* menu is visible, so remove 
+
+
+    /* menu is visible, so remove
        the "show menu" link */
     #nav-bar:target > #show{
         display: none;
     }
-    /* menu is visible, so reveal 
+    /* menu is visible, so reveal
        the "hide menu" link */
     #nav-bar:target > #hide{
         display: block;
         margin-bottom: auto;
     }
-    
+
     #wrapper{
         max-width: 400px;
-        
+
     }
-    
+
     /*home picture styling*/
-    
+
     .home-pic{
         display: block;
         background-attachment: fixed;
         background-size:contain;
     }
-    
-    
+
+
     /*mobile text styling*/
     .article{
 
     }
-    
+
    header{
     display: block;
     text-align: center;
@@ -482,13 +482,13 @@ article{
     width: 370px;
     margin: auto;
 }
-    
+
     footer p{
         text-align: center;
 }
 
     /*photography mobile styling*/
-    
+
     .photography-images {
 	margin-bottom: 100px;
 }
@@ -499,7 +499,7 @@ article{
         margin: auto;
     margin-bottom: 50px;
 }
-    
+
     .photo2 {
         display: block;
         width: 360px;
@@ -521,61 +521,61 @@ article{
         margin-bottom: 50px;
 
 }
-    
+
     /*web design mobile styling*/
-    
+
     .web1{
         display: block;
         width: 360px;
         margin: auto;
         margin-bottom: 100px;
     }
-    
+
     .web2{
         display: block;
         width: 360px;
         margin: auto;
         margin-bottom: 100px;
     }
-    
+
     .web3{
         display: block;
         width: 360px;
         margin: auto;
         margin-bottom: 100px;
     }
-    
+
     .web4{
         display: block;
         width: 360px;
         margin: auto;
         margin-bottom: 100px;
     }
-    
+
     .web5{
         display: block;
         width: 360px;
         margin: auto;
         margin-bottom: 100px;
     }
-    
+
     .web6{
         display: block;
         width: 360px;
         margin: auto;
         margin-bottom: 100px;
     }
-    
-    
+
+
     /* image creation mobile styling */
-    
+
 .creation1 {
 	 display: block;
         width: 360px;
         margin: auto;
     margin-bottom: 100px;
 }
- 
+
     .creation2 {
 	 display: block;
         width: 360px;
@@ -587,10 +587,10 @@ article{
         width: 360px;
         margin: auto;
         margin-bottom: 100px;
-        
+
 }
-    
-    
+
+
     }
 
 
@@ -611,11 +611,9 @@ article{
       // otherwise remove it
       $('#nav-bar').removeClass('fixed');
     }
-      
+
      //photography-plugin styling
       $(".thumb-item").brazzersCarousel();
-      
-    
-}); */
 
-    
+
+}); */

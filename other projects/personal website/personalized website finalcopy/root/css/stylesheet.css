@@ -92,7 +92,7 @@ nav{
     width: 100%;
     box-shadow: -3px -3px 3px 0 rgba(0,0,0,0.19) , 3px 0 3px 0 rgba(0,0,0,0.19) , 0 3px 3px 0 rgba(0,0,0,0.23);
 
-    
+
     /*word-spacing: 149.6px;*/
 }
 
@@ -493,9 +493,11 @@ footer ul li:hover{
     /*home picture styling*/
 
     .home-pic{
-        display: block;
-        background-attachment:inherit;
-        background-size:contain;
+  display: block;
+  background-attachment:inherit;
+  background-size:contain;
+  margin-top: .5px;
+
 }
 
 

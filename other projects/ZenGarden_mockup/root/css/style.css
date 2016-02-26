@@ -1,0 +1,410 @@
+@import url(https://fonts.googleapis.com/css?family=Patua+One|Amaranth:400,400italic,700,700italic|Dosis:400,200,300,500,600,700|Alegreya+Sans+SC:400,100,100italic,300italic,300,400italic,500,500italic,700|Gentium+Basic:400,400italic,700,700italic);
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*stylesheet*/
+
+body{
+    background-image: 
+        url(../images/header3.png),
+        url(../images/soccer_ball.png),
+        url(../images/pool_table.png);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: top center, top 470px left 40px, left; 
+    background-size: auto, 400px 400px, auto;
+
+    
+    
+    line-height: 1.8888;
+    display: block;
+
+}
+
+
+
+.page-wrapper{
+    max-width: 960px;
+    margin: 0 auto; 
+}
+
+a{
+    font-family: 'dosis';
+    color: yellow;
+}
+
+a:hover{
+   background: yellow;
+    color: black;
+}
+
+
+.summary p:last-child {
+text-align: center;
+
+}
+
+
+
+
+/* header styling */
+h1{
+    color: white;
+    font-family: 'dosis';
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 360px;
+}
+ 
+h1::after {
+    content: ': Soccer Field';
+
+}
+
+h2{
+    display: block;
+    color: white;
+    font-family: 'patua one';
+    font-size: 40px;
+    text-align: center;
+    padding-left: 450px;
+
+}
+
+h3{
+    margin-bottom: 30px;
+    width: 600px;
+    background: url(../images/border-image.png) no-repeat;
+}
+
+
+
+/* multiple tag styling*/
+
+.preamble h3{
+    display: block;
+    font-family: 'dosis'; 
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+
+
+}
+
+
+
+
+
+#zen-supporting h3{
+    display: block;
+    font-family: 'dosis'; 
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+}
+.summary, .preamble, .explanation, .participation, .benefits, .requirements{
+    color: white;
+    font-family: 'gentium basic';
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+
+.preamble, .requirements{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+/*  main content styling */
+
+
+
+
+
+.preamble h3{
+    text-align: center;
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+
+.summary{
+    display: block;
+    text-align: center;
+    width: 600px;
+    padding-left: 400px;
+    margin-bottom: 150px;
+    
+}
+
+.summary p{
+    margin-top: 20px;
+    line-height: 2.5;
+    text-align: left;
+}
+   
+
+
+.explanation{
+    text-align: left;
+    margin-bottom: 70px;
+
+}
+
+
+
+.explanation h3{
+    width: 400px;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top: 10px;
+
+}
+.participation h3{
+
+    text-align: left;
+    margin-right: 150px;
+    padding-left: 200px;
+    padding-top: 10px;
+
+}
+
+.participation p{
+    text-align: left; 
+    width: 50%;
+    margin-left: 5%;   
+}
+
+#zen-participation{
+    background-image: url(../images/yellow-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  
+
+}
+
+.benefits{
+    display: block;
+    text-align: left;
+}
+
+.benefits h3{
+    padding-left: 220px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.requirements h3{
+    text-align: center;
+    margin-left: 200px;
+
+    padding-top: 10px;
+    width: 600px;
+}
+
+/*
+.whaterv a: hover{
+*/
+
+
+/* sidebar styling */
+
+aside{
+    display: inline-block;
+    border: solid white 12px;
+    border-bottom-style: hidden;
+    color: white;
+    background-color: grey;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.sidebar h3{
+    font-family: 'amaranth'; 
+    font-size: 25px;
+    color: white;
+    width: 100% !important;
+    background: none;
+    
+
+}
+
+
+.design-selection{
+    text-align: center;
+}
+.sidebar h3.select{
+    text-align: center;
+}
+
+.design-archives{
+    text-align: center;
+}
+
+
+
+.sidebar .resources{
+    text-align: right;
+}
+
+.zen-resources{
+    text-align: center;
+}
+.sidebar h3.resources { 
+	text-align: center;
+}
+
+
+
+/* footer styling */
+footer{
+    text-align: center;
+    font-family: 'dosis';
+    font-size: 40px;
+    padding-bottom: 500px;
+    background-image: url(../images/crest3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 400px;
+}
+
+/* animation stylings */
+
+
+
+@media screen and (max-width: 960px){
+    
+    content text
+    
+    html{
+        max-width: 400px;
+    }
+     
+    body{
+    
+        background-image: 
+        url(../images/header3.png),
+        url(../images/soccer_ball.png),
+        url(../images/pool_table.png);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: top center, top, left; 
+    background-size: contain, 99%, auto;
+        
+    }
+    
+    header h1{
+        font-size: 18px;
+    }
+    
+    h2{
+        font-size: auto;
+        display: block;
+        text-align: center;
+        padding: inherit; 
+    }
+    
+    p{
+       margin: auto;
+        width: 360px;
+    }
+    
+
+        
+        
+    .summary{
+        padding: inherit;
+        text-align: center;
+        width: 380px;
+        margin: auto;
+
+    }
+
+    h3{
+        background: none;
+        text-decoration: underline;
+        margin: auto;
+        width: auto;
+        
+        
+    }
+    
+    .preamble h3{
+        width: auto;
+        margin: auto;
+        
+    }
+    .preamble p{
+        float:none;
+
+        text-align: left;
+        margin: auto;
+    }
+    
+    .explanation h3{
+	   margin:auto;
+        width: auto;
+        text-align: none;
+        font-size: auto;
+        padding-left: none;
+        padding-top: none;
+        
+
+    }
+    
+  
+    .participation h3{
+        margin: auto;
+    }
+    
+    .participation{ 
+        background-size: 200px;
+        text-align: left;
+    }
+
+    .benefits h3{
+    margin:auto;
+    }
+    
+.requirements  h3{
+max-width: 400px;
+    margin:auto;
+
+}        
+
+    
+    #wrapper{
+    display: block;
+        max-width: 400px;
+    }
+    
+    h1{
+        width:auto;
+        float:none;
+    }
+
+
+    
+    footer{
+       width: auto;
+        float: none;
+    }
+    
+    aside{
+    display: inline-block;
+    border: solid white 12px;
+    border-bottom-style: hidden;
+    color: white;
+    background-color: grey;
+width: 376px;
+    margin-top: 10px;
+        margin: auto;
+
+}
+        
+    }
+

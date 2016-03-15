@@ -10,7 +10,7 @@ $("#getClients").on("click", function() {
         
         
         $.each(data, function(index, item){
-           html += "<tr> + 
+           html += "<tr>" + 
                <td>"+item.name+"</td>
                <td>"+item.email"</td>
                <td>"+item.company+"</td>
@@ -20,7 +20,7 @@ $("#getClients").on("click", function() {
         html += "</table>";
         $("#data").append
         //alert(data);
-        //console.dir(data);
+        console.dir(data);
             
         })//get JSON
     

@@ -12,14 +12,26 @@ $(document).ready(function() {
           '<div class="catType">' + item.type + '</div>' +
           '<div class="catGender">' + item.gender + '</div>'+
           '<img src="' + item.image + '""/>';
+    $.each(item.comments, function(ind, i) {
+      html +=  '<div class= "renterName">' + i.username + '</div' +
+        '<div class="renterComment">' + i.comment + '</div>'; +
+        '<div class="renterStars">';
+        for(var i=1; i >= 5; i++) {
+          console.log()
+              if (i <=Number+i.stars)) {
+                html+='<img src="images/fullStar.png">';
+              } else{
+                html+='img src="images/emptyStar.png"/>';
+              }
+        }
+        html+='</div>'; //end stars
+    }) //each comment
 
-      html += '</div>';
+      html += '</div>'+ //commentsContainer
+            '</div>';//col-md-4
     }) //each cat
 
-    })//each cat
     $("#catData").append(html);
-
-    })
   })
 });
 

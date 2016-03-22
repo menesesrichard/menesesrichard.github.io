@@ -1,4 +1,3 @@
 $(document).ready(function(){
-   $(".article").click(function);
-        $(".p").hide();
+    $this.css('.home-pic').fadeOut('slow');
 });

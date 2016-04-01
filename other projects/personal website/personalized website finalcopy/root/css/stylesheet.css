@@ -104,16 +104,23 @@ nav ul a:hover {
 }
 
 
+.index-title {
+	margin-top: 120px;
+}
+
 .home-pic{
     background-image: url(../images/home_pic.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-position: center;
+    background-size:cover;
+    
+    
+    height: 700px;
+    width: 1420px;
+    margin-left: -300px;
+    margin-top: 50px;
 
-    height: 800px;
-    width: auto;
-    margin: auto;
-    margin-top: 100px;
 }
 
 /* text styling */
@@ -147,6 +154,7 @@ article{
     line-height: 1.8888;
     max-width: 700px;
     margin: auto;
+    margin-top: 50px
 }
 
 
@@ -231,7 +239,17 @@ footer ul li:hover{
 */
 
 
-/*page-2*/
+/* Videography.html */
+
+.wrecking-rexdale {
+    display: block;
+    height: 460px;
+    width: 700px;
+
+}
+
+
+/*photography.html*/
 /*
 .left, .right {
 	margin-top: 70px;
@@ -298,7 +316,7 @@ footer ul li:hover{
 }
 
 
-/* page-3*/
+/* web-design.html*/
 
 .website-images{
     margin: auto;
@@ -306,8 +324,19 @@ footer ul li:hover{
     height: 100%;
 }
 
+.zengarden-link {
+	margin: auto;
+    width: 360px;
+    overflow-wrap: break-word;
+}
 
-/* page-4*/
+
+.zengarden-link a{
+text-decoration: none;
+
+}
+
+/* image-creation.html*/
 
 .image-creation-images {
 	margin:auto;
@@ -494,19 +523,36 @@ margin-left: -190px;
 
     /*home picture styling*/
 
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+    
     .home-pic{
   display: block;
-  background-attachment:inherit;
-  background-size:contain;
-  margin-top: .5px;
+  background-attachment:none;
+  background-size:auto;
+  margin-top: 10px;
+        
+        
 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        
 }
 
 
     /*mobile text styling*/
-    .article{
-
-    }
+    
 
    header{
     display: block;
@@ -529,10 +575,17 @@ h1{
 article{
     width: 370px;
     margin: auto;
+    margin-top: 30px
 }
 
+/* Videography mobile styling */
 
-
+   .wrecking-rexdale {
+       margin: auto;
+       height: auto;
+       width: 360px;
+} 
+    
 
     footer p{
         text-align: center;
